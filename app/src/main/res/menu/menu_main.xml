@@ -1,0 +1,20 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools" tools:context=".MainActivity">
+
+    <item android:id="@+id/iniciar" android:title="@string/iniciar"
+        android:orderInCategory="100" app:showAsAction="never"/>
+
+    <item android:id="@+id/acelerometer" android:title="@string/Acelerometer"
+        android:orderInCategory="100" app:showAsAction="never"/>
+
+    <item android:id="@+id/gyroscope" android:title="@string/Gyroscope"
+        android:orderInCategory="100" app:showAsAction="never"/>
+
+    <item android:id="@+id/limpiar" android:title="@string/limpio"
+        android:orderInCategory="100" app:showAsAction="never"/>
+
+    <item android:id="@+id/detener" android:title="@string/detener"
+        android:orderInCategory="100" app:showAsAction="never"/>
+
+</menu>
